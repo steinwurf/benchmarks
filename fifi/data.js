@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1631714803515,
+  "lastUpdate": 1631715676545,
   "repoUrl": "https://github.com/steinwurf/fifi",
   "entries": {
     "Fifi Benchmark": [
@@ -7836,6 +7836,3924 @@ window.BENCHMARK_DATA = {
             "value": 0.20169559074585228,
             "unit": "us/iter",
             "extra": "iterations: 10\ncpu: 0.20130438102888354 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "host_name": "linux2",
+        "commit": {
+          "author": {
+            "email": "mikkelhojlundgrontmij@gmail.com",
+            "name": "Mikkel Højlund Larsen",
+            "username": "loglund"
+          },
+          "committer": {
+            "email": "mikkelhojlundgrontmij@gmail.com",
+            "name": "Mikkel Højlund Larsen",
+            "username": "loglund"
+          },
+          "distinct": true,
+          "id": "d7143be5c22724f9af1b0fcf30d3531ce3bcc4e2",
+          "message": "10 repetitions",
+          "timestamp": "2021-09-15T13:16:32+02:00",
+          "tree_id": "5166020af83bf3b5ffc15a8f6ec3a53916c18ca3",
+          "url": "https://github.com/steinwurf/fifi/commit/d7143be5c22724f9af1b0fcf30d3531ce3bcc4e2"
+        },
+        "date": 1631715675637,
+        "benches": [
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9552968954448773,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9522190983647814 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9545564701110404,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9520081454869951 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9551885721590685,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9520479928067241 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9531712942017905,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9519458382247515 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9548600347682771,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.951949183206803 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9540129077547063,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9519304069614803 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9533558329731234,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.951948031031204 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.954409552600647,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9520150816657166 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9560230506452544,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9538808674916446 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600",
+            "value": 0.9540813395310705,
+            "unit": "us/iter",
+            "extra": "iterations: 735131\ncpu: 0.9519553644180415 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600_mean",
+            "value": 0.9544955950189857,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9521900009658142 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600_median",
+            "value": 0.9544830113558437,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9519817549525185 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_basic/1600_stddev",
+            "value": 0.0008854860914768115,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0006002140551526976 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.03431323159942823,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.034218344342450684 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.03424116667652045,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.03421601449841539 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.034290161964611904,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.03421345656425771 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.04529371331055981,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.045180959026799784 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.04524947416749365,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.04516256655317735 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.03429508131069199,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.034215633028075614 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.0342339974873279,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.03421445351122372 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.03429012699295731,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.034215113676890084 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.03431291685453685,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.03421409898143215 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600",
+            "value": 0.035415223407458195,
+            "unit": "us/iter",
+            "extra": "iterations: 20452442\ncpu: 0.03422078982059942 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600_mean",
+            "value": 0.036593509377158634,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.036407143000332196 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600_median",
+            "value": 0.034303999082614424,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0342158237632455 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_sse2/1600_stddev",
+            "value": 0.004587458332665551,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.004619362764095674 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029828753135936713,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.029794905781317337 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029859861567121813,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.02979190265379925 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.020999946925502375,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.02094090690492001 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029808119060700397,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.02978894788623367 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.0298566644526607,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.029789590911836614 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.02985010783062299,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.02978922523226512 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029810595555711545,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.029789720325794567 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029855334859027666,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.02979128661781774 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.029843398965039517,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.029788145391983968 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600",
+            "value": 0.02985050366384199,
+            "unit": "us/iter",
+            "extra": "iterations: 23490511\ncpu: 0.029789156353388926 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600_mean",
+            "value": 0.028956328601616576,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.028905378805935727 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600_median",
+            "value": 0.029846753397831254,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.029789408072050865 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_avx2/1600_stddev",
+            "value": 0.002795649911642491,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0027984308595626413 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/binary_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.035308360510253864,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.03521830188978379 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.035245159659684965,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.035227162687183455 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.04874987469137719,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.048651035106840046 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.0240205470057034,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.023923094406645976 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.024006735693950065,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.02393587549174715 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.031933768673251206,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.031854316717754835 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.0319300008610092,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.03185425410830468 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.031877371483641594,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.03185313574448498 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.03192874092379452,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.031855754369638785 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600",
+            "value": 0.03529769304183622,
+            "unit": "us/iter",
+            "extra": "iterations: 19869205\ncpu: 0.03521464099846981 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600_mean",
+            "value": 0.03302982525445023,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.032958757152085356 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600_median",
+            "value": 0.03193188476713021,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.031855035543696814 us\nthreads: 1"
+          },
+          {
+            "name": "BM_binary_vector_add_into/math_binary/1600_stddev",
+            "value": 0.0069113219345124915,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.006908305224056259 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9573216029587794,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9556603972139645 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9562626923197777,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9542238249212135 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.972112508417877,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9572603892975277 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9551351184524941,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9545069043599069 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9582705222652725,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.955467356306459 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9555015392820934,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9534591696205347 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9564813733122206,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9543058760422813 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9546242119671737,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9532513113301907 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9592187907354788,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9555411115493936 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600",
+            "value": 0.9598344818630113,
+            "unit": "us/iter",
+            "extra": "iterations: 732653\ncpu: 0.9541392050534234 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600_mean",
+            "value": 0.958476284157418,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9547815545694895 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600_median",
+            "value": 0.9569014881354999,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9544063902010942 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_basic/1600_stddev",
+            "value": 0.005093011217305115,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0012055409673768526 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11327738548170115,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.112706949223988 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11272918220301435,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11266660083813139 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11292039716435387,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11266761739811186 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11291249223117386,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11266958356288853 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11273570569156095,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11266633575353888 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11394661865965841,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11271787434668294 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11294679810623659,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11268340755541034 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11525711076174663,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11275471128714772 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11343133981140094,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.1131760366103223 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600",
+            "value": 0.11350474824428124,
+            "unit": "us/iter",
+            "extra": "iterations: 6213111\ncpu: 0.11325825677345923 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600_mean",
+            "value": 0.11336617783551281,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.11279673733496812 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600_median",
+            "value": 0.11311209179396886,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.11269517838969915 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_ssse3/1600_stddev",
+            "value": 0.0007693835741120201,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0002242368182379984 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_neon/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.04927087024366012,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.04871314542678795 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.048788730744628465,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.048666664650128984 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.04878576317120412,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.04867383003438195 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.050705153189098004,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.050670251444866504 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.05080784117675367,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.05067338076369077 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.051204832870715984,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.050703096949917266 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.05075107597337411,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.05070213443561453 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.050807509604304024,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.050697443204041896 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.0508017070864352,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.050699521628583606 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600",
+            "value": 0.048786873938910444,
+            "unit": "us/iter",
+            "extra": "iterations: 14381085\ncpu: 0.04867499058659359 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600_mean",
+            "value": 0.05007103579990842,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.04988744591246071 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600_median",
+            "value": 0.05072811458123605,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.050671816104278636 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/binary8_avx2/1600_stddev",
+            "value": 0.0010195195079042469,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0010374779577603612 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05332913184313204,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.053213993872967484 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.053812848793233475,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05326355617509923 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05333977673515084,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05322174207334105 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05391831845589337,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05386989666556198 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.0539858872253347,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05386404299708169 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05362450492865548,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.053494329144567754 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05577655028752321,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05356870579847074 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05372538658845207,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05350745167586006 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05360499231568745,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05350158386000004 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600",
+            "value": 0.05331863202630259,
+            "unit": "us/iter",
+            "extra": "iterations: 13147311\ncpu: 0.05321734733437106 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600_mean",
+            "value": 0.05384360291993654,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.053472264959732105 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600_median",
+            "value": 0.05367494575855377,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.053497956502283894 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_multiply_add_into/math_binary8/1600_stddev",
+            "value": 0.0007208088343293408,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0002497764320185362 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9930429631483507,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9894942232022116 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9875068890054207,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9870623034161712 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9890262001849012,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.98688110158846 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9883895684650038,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9861548477871974 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9858356467079922,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9850051275688964 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.988870571628242,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9866605625522505 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9888732606745774,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9856124068275526 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9889263693397008,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.988228030897943 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9903666897830801,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9879859256199478 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600",
+            "value": 0.9906554261333397,
+            "unit": "us/iter",
+            "extra": "iterations: 709303\ncpu: 0.9875689148361136 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600_mean",
+            "value": 0.989149358507061,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9870653444296742 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600_median",
+            "value": 0.9888998150071391,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.9869717025023155 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/1/1600_stddev",
+            "value": 0.0019259863091923846,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0013222318321654005 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.882735745137102,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.873686712155823 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.883121322050069,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.8744794246660375 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.876933604878278,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.8750545204811724 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.8859761757686804,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.8775622909236276 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.8871659182295817,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.878246521854736 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.881831223954286,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.8725611056957736 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.8839281285357634,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.8818131106138756 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.912353862116034,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.879538924211852 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.882850625929664,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.873334477945876 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600",
+            "value": 3.914647516560635,
+            "unit": "us/iter",
+            "extra": "iterations: 180556\ncpu: 3.879568798599846 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600_mean",
+            "value": 3.8891544123160102,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 3.876584588714862 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600_median",
+            "value": 3.883524725292916,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 3.8763084057023995 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/2/1600_stddev",
+            "value": 0.01312247683676156,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.003172995782147509 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.436087190746607,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.406529691525245 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.460702306615273,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.415564942642579 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.705016124599437,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.406400488803746 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.419083914931164,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.409182112425107 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.452974976575035,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.408850342382822 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.597867664374366,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.426408239205486 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.425246880601843,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.413912565779151 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.439357657197062,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.40782013343033 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.437835289186417,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.401745117466932 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600",
+            "value": 15.452287286197814,
+            "unit": "us/iter",
+            "extra": "iterations: 45417\ncpu: 15.41760050201447 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600_mean",
+            "value": 15.482645929102503,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 15.411401413567589 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600_median",
+            "value": 15.44582247169744,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 15.409016227403963 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/4/1600_stddev",
+            "value": 0.09332884023759853,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.007098671085062071 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 62.015370318764134,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.42243096491278 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.560722819545816,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.41296561403495 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.5230777807403,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.390093070175425 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.43281334324887,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.38526175438604 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.526507662053696,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.37062122807117 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.534705914949114,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.40251271929866 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 62.241700657627035,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.48411991228131 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.520881820143316,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.399284385965295 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.58086291530676,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.41634798245632 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600",
+            "value": 61.555577997575725,
+            "unit": "us/iter",
+            "extra": "iterations: 11400\ncpu: 61.40959394736823 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600_mean",
+            "value": 61.64922212299548,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 61.40932315789503 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600_median",
+            "value": 61.545141956262434,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 61.40605333333345 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/8/1600_stddev",
+            "value": 0.2611425397649698,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.03059194491509202 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 248.21060809475142,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.4996147859923 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 247.96586429689054,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.63153519632192 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 249.59962613429963,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.60457198443626 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 248.18884934221936,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.58975663246997 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 247.61477248762284,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.43254439335013 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 249.403881697761,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.66294694022145 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 247.99892410693928,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.44918394057277 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 248.0017072031934,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.42835833038887 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 247.39920903230498,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.32703572691977 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600",
+            "value": 248.04176692200247,
+            "unit": "us/iter",
+            "extra": "iterations: 2827\ncpu: 247.54039617969337 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600_mean",
+            "value": 248.24252093179854,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 247.5165944110367 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600_median",
+            "value": 248.02173706259796,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 247.52000548284286 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/16/1600_stddev",
+            "value": 0.7097579578038469,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.10744751711954781 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1003.8355418613979,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.6129571428623 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1000.3519058227539,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.6086300000075 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1001.7108917236328,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.4809142857265 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1001.9387517656598,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.6407600000014 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1002.0838465009417,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.7163457142781 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1000.2619879586356,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.7859442857151 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1001.7613002232143,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.5113985714202 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1002.4540764944894,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 1000.0151985714264 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1000.3267015729632,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.8360457142853 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600",
+            "value": 1001.6042845589774,
+            "unit": "us/iter",
+            "extra": "iterations: 700\ncpu: 999.2734385714236 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600_mean",
+            "value": 1001.6329288482666,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 999.6481632857146 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600_median",
+            "value": 1001.7360959734236,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 999.6268585714319 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/32/1600_stddev",
+            "value": 1.1091913197340697,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.20645143134524463 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4011.0274723597936,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4004.05468571429 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4011.9075775146484,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4003.070382857215 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4012.786320277623,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4003.903668571443 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4006.539753505162,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4003.582211428563 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4052.792957850865,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4006.4612571429084 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4012.953894478934,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4002.9083371427987 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4003.45938546317,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4000.675165714256 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4010.350363595145,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4001.4159257142574 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4010.2345602852956,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4000.938691428603 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600",
+            "value": 4015.528815133231,
+            "unit": "us/iter",
+            "extra": "iterations: 175\ncpu: 4003.5788342856904 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600_mean",
+            "value": 4014.7581100463867,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4003.0589160000027 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600_median",
+            "value": 4011.467524937221,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4003.3246085714527 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_basic/64/1600_stddev",
+            "value": 13.79018680259017,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 1.7232102743022868 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3205800622169561,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.3170011212997969 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3172528083458357,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.3171231485409516 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3173568694506354,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.31662112893225497 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.31684628926353386,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.31612077586331744 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3189607936235769,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.31629755960927786 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.33020025741634024,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.3293815786849675 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3295920996823704,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.3288725199060199 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.32936171725720625,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.328470499934734 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.31747119618882663,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.31728099528274456 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600",
+            "value": 0.3185560034900568,
+            "unit": "us/iter",
+            "extra": "iterations: 2206368\ncpu: 0.31767576668987196 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600_mean",
+            "value": 0.3216178096935338,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.32048450947439366 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600_median",
+            "value": 0.3187583985568168,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.31720207191184807 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/1/1600_stddev",
+            "value": 0.005695005461265561,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0058345266616722565 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5171103742130292,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5111850558924056 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5113917242519022,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5109988976088631 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5120018665512381,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5109340628654607 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.511609532884685,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.510648966435403 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.511714526032491,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5106020513807605 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.511780581324157,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5114308213105535 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5123450064084716,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5112811418205797 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5146631994865185,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5105584070448076 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.512596711835662,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.5112662048581045 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600",
+            "value": 0.5128758823578083,
+            "unit": "us/iter",
+            "extra": "iterations: 1371564\ncpu: 0.511856551353053 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600_mean",
+            "value": 0.5128089405345964,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.5110762160569992 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600_median",
+            "value": 0.5121734364798549,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.5110919767506343 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/2/1600_stddev",
+            "value": 0.0017813565348243758,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0004118104618325456 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.2154656719707873,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2114251999577634 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.2163731322526137,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2111459600828745 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.209042470839988,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2083867055995 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.2089607622743666,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2062153641645925 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.2125992694616623,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2100721769217384 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.213505904404442,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2127125143012343 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.2145235474490004,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2119501009957532 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.213303696338005,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2106003648655836 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.216463094208702,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2131184982353702 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600",
+            "value": 1.244009197561222,
+            "unit": "us/iter",
+            "extra": "iterations: 577747\ncpu: 1.2433894836321027 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600_mean",
+            "value": 1.2164246746760792,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 1.2139016368756514 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600_median",
+            "value": 1.2140147259267213,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 1.211285580020319 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/4/1600_stddev",
+            "value": 0.010047356639433713,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.010562784919164587 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.412409955168989,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.409268393540372 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.380275722127919,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.370878237098987 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.367507222484498,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.358327201100977 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.392785329641354,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.382994217098704 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.401721623686266,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.392750880692856 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.494739157691231,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.4051692066820225 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.418900320660256,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.408439620449863 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.377113324656408,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.3740197477239855 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.375842946995316,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.365971142312432 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600",
+            "value": 4.4692081791515985,
+            "unit": "us/iter",
+            "extra": "iterations: 158398\ncpu: 4.420571017310789 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600_mean",
+            "value": 4.409050378226384,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4.3888389664010985 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600_median",
+            "value": 4.39725347666381,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4.38787254889578 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/8/1600_stddev",
+            "value": 0.04224876331179588,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.021397594211380686 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.92209219454182,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.862691213973367 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.889512260718575,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.878311119665327 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.905039352419195,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.866403647211797 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.903823340804664,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.86764908819702 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.892328589505055,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.8682229466394 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 17.030546664388623,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.851919790213202 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.896848481732647,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.85771380455209 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.880965763993817,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.84003298368881 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 16.87494306495959,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.8643331087906 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600",
+            "value": 17.07761549131706,
+            "unit": "us/iter",
+            "extra": "iterations: 41566\ncpu: 16.882059543857462 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600_mean",
+            "value": 16.927371520438108,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 16.86393372467891 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600_median",
+            "value": 16.900335911268655,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 16.8653683780012 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/16/1600_stddev",
+            "value": 0.06895626513338535,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.012154228637821164 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.58663266861699,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.20689032806982 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.20079445187487,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.15344303677546 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.31706211104154,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.17586007374481 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 67.51524113837854,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 67.36926585988398 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.32055600153608,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.16251299990407 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.80904697513067,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.18894733856465 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 67.92220048669088,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 67.76506570861402 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.30606199129099,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.15713935898621 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.207286325826,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.16575333270274 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600",
+            "value": 66.3377775004898,
+            "unit": "us/iter",
+            "extra": "iterations: 10577\ncpu: 66.15998345466504 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600_mean",
+            "value": 66.65226596508764,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 66.45048614919108 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600_median",
+            "value": 66.32916675101293,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 66.17080670322378 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/32/1600_stddev",
+            "value": 0.5990116461227453,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.5961092933581484 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 264.3451403314335,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.46925988700383 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.937269451479,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.31984293784467 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 264.0729570119394,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.5004011299491 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.505781213218,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.31832881355945 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 266.4077528901468,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 265.8766071563137 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 265.2443061440678,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.32492881355824 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.8674051748157,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.30936346515836 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.6061774359809,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.0918760828595 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.893087929476,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.3628436911482 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600",
+            "value": 263.4018827966378,
+            "unit": "us/iter",
+            "extra": "iterations: 2655\ncpu: 263.28938116761117 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600_mean",
+            "value": 264.22817603791947,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 263.5862833145007 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600_median",
+            "value": 263.91517869047755,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 263.32238587570146 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_ssse3/64/1600_stddev",
+            "value": 0.9273266595531293,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.8121951777116797 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/1/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/2/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/4/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/8/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/16/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/32/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_neon/64/1600",
+            "value": 0,
+            "unit": "us/iter",
+            "extra": "iterations: 0\ncpu: 0 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.19241465702892946,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.19202163203411923 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.21138217406753587,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.21092514217095962 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.20868928937229891,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.20820749070383038 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.21449801567985605,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.21405568901026673 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.1988885917281614,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.19877214515816075 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.1933291301278207,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.19280846878726493 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.19249160595511197,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.1920684320259747 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.19638762053876974,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.19201565158918543 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.19209191723972788,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.19197502942937705 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600",
+            "value": 0.18995891135833332,
+            "unit": "us/iter",
+            "extra": "iterations: 3637522\ncpu: 0.18954151919905796 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600_mean",
+            "value": 0.1990131913096545,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.19823912001081967 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600_median",
+            "value": 0.19485837533329523,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.1924384504066198 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/1/1600_stddev",
+            "value": 0.009077272245587291,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.00925320792896356 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.29576082889189487,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.29508137822122676 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.29593481288581447,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.29524188726142775 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.29541859001304094,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.29526011478571873 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.31119323930576676,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.31045995990004316 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.31046725063558706,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.3097517878883992 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.30145073871037403,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.3006464323173998 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.30117162054104146,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.30093031324512387 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.3007075627132386,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.3000242813034322 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.30075430018127597,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.30007573463200127 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600",
+            "value": 0.3104709695308932,
+            "unit": "us/iter",
+            "extra": "iterations: 2372072\ncpu: 0.3103171037809912 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600_mean",
+            "value": 0.3023329913408928,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.30177889933357643 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600_median",
+            "value": 0.3009629603611587,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3003610834747005 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/2/1600_stddev",
+            "value": 0.0062369619176025045,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.006235156612485173 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7410186184193762,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.739243513537319 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7449054863687584,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7431588485715891 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7396151939622344,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7379406430441807 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7535023678544865,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.75305577959245 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7601335546674866,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7495889504582506 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7501365002872513,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7482655819877162 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7450925762803503,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7434393705099592 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.774177804047011,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7737328244595245 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.7804505686095949,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7786283748909106 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600",
+            "value": 0.745693865247552,
+            "unit": "us/iter",
+            "extra": "iterations: 953216\ncpu: 0.7441203221515412 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600_mean",
+            "value": 0.7534726535744103,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.7511174209203442 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600_median",
+            "value": 0.7479151827674017,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.7461929520696287 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/4/1600_stddev",
+            "value": 0.013997116117923253,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.014017462847217426 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.470634697720082,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.4619448310910337 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.4344244363698815,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.4327466931123913 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.649666563395645,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.6434641253864983 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.638219698233027,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.6306652879145007 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.6570366818872198,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.650051283227721 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.6398041180434655,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.637751034064146 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.64644050627763,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.6403363355308986 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.660566496600332,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.654881957875046 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.633303200648112,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.6273003903327545 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600",
+            "value": 2.451104178219234,
+            "unit": "us/iter",
+            "extra": "iterations: 283348\ncpu: 2.449846023264604 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600_mean",
+            "value": 2.588120057739463,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 2.5828987961799594 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600_median",
+            "value": 2.639011908138246,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 2.6342081609893233 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/8/1600_stddev",
+            "value": 0.09463877066783818,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.09357036895451176 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.698129812939785,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.626299299891427 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.635999248868725,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.615101921516079 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.655475308196182,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.632202288763766 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.632260789930637,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.626951281240052 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.631286822996767,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.61124853169754 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.62861415279103,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.606510611666376 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.636540341609765,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.60803274968039 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.891863969681363,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.637323370425017 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.634680950190557,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.609918930442864 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600",
+            "value": 9.578026900528803,
+            "unit": "us/iter",
+            "extra": "iterations: 72703\ncpu: 9.571160722391337 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600_mean",
+            "value": 9.662287829773362,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 9.614474970771486 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600_median",
+            "value": 9.63534009952964,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 9.61317522660681 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/16/1600_stddev",
+            "value": 0.08579622558194686,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.01869164422121454 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.469119432011915,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.36838381151442 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.366890425708945,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.3331164734933 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.39683431337494,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.29681531445865 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.3991748593095,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.30314472100805 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.426823501929995,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.388293305465005 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.42402994710488,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.32490119703503 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.72617177681183,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.62645139020855 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.43260691543281,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.32131236937207 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.35567090551942,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.31834650706139 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600",
+            "value": 44.75853171189414,
+            "unit": "us/iter",
+            "extra": "iterations: 15789\ncpu: 44.3305208689602 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600_mean",
+            "value": 44.475585378909834,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 44.36112859585767 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600_median",
+            "value": 44.425426724517436,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 44.32771103299761 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/32/1600_stddev",
+            "value": 0.14453418732736342,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.09725947431070057 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 182.97563191332847,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.32564732026427 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.25120015861162,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.76233150326857 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 182.64720642488766,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.59261490196448 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.60910851970996,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 183.2230232679756 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.24602663127425,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.88050274509854 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.0812217363345,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 183.01675320261435 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 184.0675578397863,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.7379241830032 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.72030819163604,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 183.31530457516195 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 183.19267073487924,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.82967764706157 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600",
+            "value": 182.60818680906607,
+            "unit": "us/iter",
+            "extra": "iterations: 3825\ncpu: 182.4931186928139 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600_mean",
+            "value": 183.23991189595142,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 182.81768980392263 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600_median",
+            "value": 183.21934868307673,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 182.79600457516506 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/binary8_avx2/64/1600_stddev",
+            "value": 0.45945425780535265,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3096896488404354 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2469764032077857,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.24555962205452986 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2540334222495532,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.2534659149881704 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2524195896301912,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.2518266070710278 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.24142570477758146,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.24131425133408416 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.24194754139123867,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.2412658010451684 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2404895435580658,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.23987005664348468 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2398532799223257,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.2397074751785573 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.24002936582177556,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.23949312146841523 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.23997791482263756,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.2394380894176276 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600",
+            "value": 0.2445122707962695,
+            "unit": "us/iter",
+            "extra": "iterations: 2896185\ncpu: 0.24387268492862804 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600_mean",
+            "value": 0.24416650361774245,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.24358136241296938 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600_median",
+            "value": 0.24168662308441008,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.24129002618962625 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/1/1600_stddev",
+            "value": 0.005298893946147955,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.005194544725498502 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.35062508893839184,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.34965585081281575 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.3498297987967008,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.34961223718344925 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.35084260317325255,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3500501272105869 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.3656311900355729,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3647676732822875 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.3675650070672328,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3667516175343381 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.3471172403253999,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3469409847771804 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.348528999382312,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3476599744829766 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.348491020706384,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.34766480224310575 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.34729558533022825,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.34694955120506976 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600",
+            "value": 0.34802599027323344,
+            "unit": "us/iter",
+            "extra": "iterations: 2002585\ncpu: 0.3471947957265203 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600_mean",
+            "value": 0.35239525240287095,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3517247614458331 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600_median",
+            "value": 0.3491793990895064,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3486385197132776 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/2/1600_stddev",
+            "value": 0.007605426841539802,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.007503221575687212 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.791598066069297,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.7889177697408981 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.808241544473408,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8061901468578464 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.805925092833336,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8054913623299175 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.7959431897257524,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.7940396735492931 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.7657646819748921,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.7640207895787591 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.8087669501423788,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8083085814242729 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.8087572949080333,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8067619587043297 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.8050687271870758,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.803245362251172 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.8146939230257817,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8126771141396343 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600",
+            "value": 0.868384267412848,
+            "unit": "us/iter",
+            "extra": "iterations: 888955\ncpu: 0.8680137644762836 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600_mean",
+            "value": 0.8073143737752801,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.8057666523052408 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600_median",
+            "value": 0.807083318653372,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.805840754593882 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/4/1600_stddev",
+            "value": 0.025600992546916425,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.026035542927581055 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.7502046663635777,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.748954344134515 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.744705345274836,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.7346068675272663 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.825791511312979,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.819187833870313 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.839813258392172,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.838268612607814 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.873912184760634,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.868661652244839 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.8828726750672273,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.862208350578934 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.846866555002385,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.837393894499869 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.775201999603616,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.7742028500586096 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.773427608563076,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.7680756495603283 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600",
+            "value": 2.7731158912181164,
+            "unit": "us/iter",
+            "extra": "iterations: 258521\ncpu: 2.767883750256246 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600_mean",
+            "value": 2.8085911695558616,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 2.801944380533873 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600_median",
+            "value": 2.800496755458297,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 2.7966953419644613 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/8/1600_stddev",
+            "value": 0.05122981246997109,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.04873452984235966 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.126435611425098,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.095141185968512 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.063592773449095,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.052527812955026 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.08483728338645,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.058235468245416 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.066713968993275,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.037883017792447 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.071522195260853,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.063439498512066 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.104289087297827,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.074153976445245 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.078964755857134,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.054085053504696 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.09841278565056,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.071032181979628 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.058784547181517,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.052739963908099 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600",
+            "value": 11.040951839870447,
+            "unit": "us/iter",
+            "extra": "iterations: 63172\ncpu: 11.01486158424617 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600_mean",
+            "value": 11.079450484837228,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 11.057409974355732 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600_median",
+            "value": 11.075243475558993,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 11.056160260875057 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/16/1600_stddev",
+            "value": 0.024942491502859036,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.021538013442360424 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.35384311413751,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.25604556111744 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.40650943228896,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.30197927887975 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.07727695806165,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 44.97144300107762 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.324654552270445,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.27726544578931 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.38750362958256,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.276774729103714 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.01849191964303,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 44.92241740067222 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 44.374591036219385,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 44.340753627779335 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.32128547913568,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.219834864711835 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 45.88534084006065,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 45.140808884101034 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600",
+            "value": 44.50735971204123,
+            "unit": "us/iter",
+            "extra": "iterations: 15781\ncpu: 44.36672378176191 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600_mean",
+            "value": 45.16568566734412,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 45.00740465749942 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600_median",
+            "value": 45.32297001570307,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 45.18032187440644 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/32/1600_stddev",
+            "value": 0.4470513731842992,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3682264584275268 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 183.04355552917275,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.59680322328663 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.4961286226991,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.40190798024798 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 183.68729189026655,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 183.260389394334 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 183.90439100193612,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 183.493963867946 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.55698826519395,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.4354619183818 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.49383554044624,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.02614270860835 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.89747999214586,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.46964881724924 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.09372367491994,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 181.9506285417171 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 182.44654846588048,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.05075591370343 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600",
+            "value": 183.32219601049343,
+            "unit": "us/iter",
+            "extra": "iterations: 3847\ncpu: 182.94854328048314 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600_mean",
+            "value": 182.89421389931547,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 182.5634245645958 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600_median",
+            "value": 182.72723412866992,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 182.45255536781553 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8/64/1600_stddev",
+            "value": 0.5895947328705963,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.524867154595066 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.11172332603570374,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.11131936750310778 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10730994556276467,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10725470564658238 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10754313626323671,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10725174193970825 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10561044608176007,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10535174768920502 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10528102543078165,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10523883836528579 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10747542180010486,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10724278360442538 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.10819058708125606,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.10792975273393406 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.1128923824629986,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.11282112554635267 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.11381336200564104,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.11355457413311643 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600",
+            "value": 0.11194889689519691,
+            "unit": "us/iter",
+            "extra": "iterations: 6070101\ncpu: 0.11170627704547716 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600_mean",
+            "value": 0.10917885296194443,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.1089670914207195 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600_median",
+            "value": 0.10786686167224639,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.1075922291902582 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/1/1600_stddev",
+            "value": 0.003116083373777332,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.0030881403313142352 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.34413549817079786,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3433353423103599 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.360314391640458,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.35952890497354534 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.37539206047391926,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3750773195736563 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.3216769971843546,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3209319818424327 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.31588813877705463,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3141656588664912 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.33188636594445214,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3306844120784334 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.3205584380578911,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.32022621764689224 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.334104104021928,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.33056940318660666 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.3186751156745914,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3180023853027126 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600",
+            "value": 0.33058498716289814,
+            "unit": "us/iter",
+            "extra": "iterations: 2214394\ncpu: 0.3304124193797375 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600_mean",
+            "value": 0.3353216097108346,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.33429340451608686 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600_median",
+            "value": 0.33123567655367514,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.3304909112831721 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/2/1600_stddev",
+            "value": 0.019443867528539906,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.01963785098563057 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.2507661710868458,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2485419232227242 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.2832558239543739,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2798037444665624 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.2619724393578908,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2591826678967055 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.2760964294362882,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2647577467407527 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.296299255262627,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2934555577010414 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.3048273575562288,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.3020223319960291 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.3045085181242493,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.301600475209686 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.2746105012813678,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2734208913489655 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.24937913430655,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.2459583735598831 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600",
+            "value": 1.0776235718442133,
+            "unit": "us/iter",
+            "extra": "iterations: 559332\ncpu: 1.0749406506332548 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600_mean",
+            "value": 1.2579339202210635,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 1.2543684362775605 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600_median",
+            "value": 1.275353465358828,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 1.269089319044859 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/4/1600_stddev",
+            "value": 0.06645128778254465,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.06622322146885504 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.261881507885779,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.252120094044936 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.2542191445794115,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.250616741512788 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.27200258966746,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.262523330886959 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.272354047012846,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.262913792031129 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.258801436550899,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.248965249356433 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.25944058471909,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.2572549292796324 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.314092943397788,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.304055494047708 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.273887409439551,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.263876354385632 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.463690688314171,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.3639122868127735 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600",
+            "value": 4.598801569065681,
+            "unit": "us/iter",
+            "extra": "iterations: 160774\ncpu: 4.587632285071076 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600_mean",
+            "value": 4.322917192063267,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4.305387055742907 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600_median",
+            "value": 4.272178318340154,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 4.262718561459044 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/8/1600_stddev",
+            "value": 0.1155397806913441,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.10529906559469478 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.1730222108863,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.112112522596302 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.19993123114939,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.159322226023434 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.102493785266017,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.08995707724626 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.093029032467854,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.043719670689246 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.26990050829668,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.232900889235427 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.306955743559396,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.29556776762607 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.13537870483428,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.09766436214369 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.151401803263667,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.11286426931197 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.17938252476667,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.141194947964753 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600",
+            "value": 17.053865341504864,
+            "unit": "us/iter",
+            "extra": "iterations: 40934\ncpu: 17.04559246592011 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600_mean",
+            "value": 17.166536088599514,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 17.13308961987573 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600_median",
+            "value": 17.162212007074984,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 17.112488395954138 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/16/1600_stddev",
+            "value": 0.07826127844331131,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.07938828087221797 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.88651187882223,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.58791409220402 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.88713512130563,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.68195983840099 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.76614109191604,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.66901473383687 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.4395053722106,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.23062488118086 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.43174317037197,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.24516884505776 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.42653059687451,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.22335788973795 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.25094619178047,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.20637333649628 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.44477460411565,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.22767217205676 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.41851343220178,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.22884505703475 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600",
+            "value": 83.2598698909745,
+            "unit": "us/iter",
+            "extra": "iterations: 8416\ncpu: 83.20967740018898 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600_mean",
+            "value": 83.52116713505734,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 83.35106082461951 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600_median",
+            "value": 83.43562427129129,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 83.2297349691078 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/32/1600_stddev",
+            "value": 0.23774686843781906,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.20542624489514189 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 333.12259006228027,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 332.8831336822258 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 335.6111265158903,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 332.9748130352062 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.9191228284028,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.51096764984544 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.2631881742904,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.490971931499 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 333.9740687841239,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.77215889628144 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.4313969054072,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.6370861084681 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.2172511978222,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.44468030445154 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 333.07665308581204,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 332.89510894387837 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.23880187814063,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.4951103710696 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600",
+            "value": 334.4928730566313,
+            "unit": "us/iter",
+            "extra": "iterations: 2102\ncpu: 333.71250713607304 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600_mean",
+            "value": 334.2347072488801,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 333.3816538058999 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600_median",
+            "value": 334.2509950262155,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 333.4930411512843 us\nthreads: 1"
+          },
+          {
+            "name": "BM_vector_dot_product/math_binary8_reference/64/1600_stddev",
+            "value": 0.753897297942552,
+            "unit": "us/iter",
+            "extra": "iterations: 10\ncpu: 0.337225393867559 us\nthreads: 1"
           }
         ]
       }
